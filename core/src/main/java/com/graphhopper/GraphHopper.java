@@ -96,7 +96,7 @@ public class GraphHopper implements GraphHopperAPI {
     private String ghLocation = "";
     private DAType dataAccessType = DAType.RAM_STORE;
     private boolean sortGraph = false;
-    private boolean elevation = false;
+    private boolean elevation = true;
     private LockFactory lockFactory = new NativeFSLockFactory();
     private boolean allowWrites = true;
     private boolean fullyLoaded = false;
